@@ -87,9 +87,39 @@ namespace CrashCourse_Dacal
                         break;
                     case 5:
                         CrashCodeClasses.Functions.Lesson1();
+                        Console.WriteLine("\n\n");
                         break;
                     case 6:
                         CrashCodeClasses.Functions.Lesson2();
+                        Console.WriteLine("\n");
+                        break;
+                    case 7:
+                        CrashCodeClasses.Functions.Lesson3();
+                        Console.WriteLine("\n");
+                        break;
+                    case 8:
+                        CrashCodeClasses.Functions.Lesson4();
+                        Console.WriteLine("\n");
+                        break;
+                    case 9:
+                        CrashCodeClasses.Functions.Lesson5();
+                        Console.WriteLine("\n");
+                        break;
+                    case 10:
+                        CrashCodeClasses.Functions.Lesson6();
+                        Console.WriteLine("\n");
+                        break;
+                    case 11:
+                        CrashCodeClasses.Functions.Lesson7a();
+                        Console.WriteLine("\n");
+                        break;
+                    case 12:
+                        CrashCodeClasses.Functions.Lesson7b();
+                        Console.WriteLine("\n");
+                        break;
+                    case 13:
+                        CrashCodeClasses.Functions.Lesson8();
+                        Console.WriteLine("\n");
                         break;
                 }
             }
