@@ -87,7 +87,7 @@ namespace CrashCourse_Dacal
                         break;
                     case 5:
                         CrashCodeClasses.Functions.Lesson1();
-                        Console.WriteLine("\n\n");
+                        Console.WriteLine("\n");
                         break;
                     case 6:
                         CrashCodeClasses.Functions.Lesson2();
