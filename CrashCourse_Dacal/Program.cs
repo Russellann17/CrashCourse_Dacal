@@ -29,6 +29,7 @@ namespace CrashCourse_Dacal
                                   "\n[12] Lesson 10b : Object Methods" +
                                   "\n[13] Lesson 11 : Inheritance" +
                                   "\n[14] Lesson 12 : Encapsulation " +
+                                  "\n[15] Lesson 13 : Polymorphism " +
                                   "\n[0] Exit");
 
                 Console.Write("Choose: ");
@@ -96,6 +97,10 @@ namespace CrashCourse_Dacal
                         break;
                     case 14:
                         L12_Bank.Lesson12();
+                        Console.WriteLine("\n");
+                        break;
+                    case 15:
+                        L13_Notification.L13_Polymorphism();
                         Console.WriteLine("\n");
                         break;
                 }
