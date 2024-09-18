@@ -27,7 +27,8 @@ namespace CrashCourse_Dacal
                                   "\n[10] Lesson 9 : Functions" +
                                   "\n[11] Lesson 10a : Constructor" +
                                   "\n[12] Lesson 10b : Object Methods" +
-                                  "\n[13] Lesson 11: Inheritance" +
+                                  "\n[13] Lesson 11 : Inheritance" +
+                                  "\n[14] Lesson 12 : Encapsulation " +
                                   "\n[0] Exit");
 
                 Console.Write("Choose: ");
@@ -82,43 +83,20 @@ namespace CrashCourse_Dacal
                         Console.WriteLine("\n");
                         break;
                     case 11:
-                        Console.WriteLine("\n\nEnter the details of the car: ");
-                        Console.Write("Brand : ");
-                        string brand = Console.ReadLine();
-                        Console.Write("Model : ");
-                        string model = Console.ReadLine();
-                        Console.Write("Year  : ");
-                        int year = Convert.ToInt32(Console.ReadLine());
-                        
-                        Lesson10 car = new Lesson10(brand,model,year);
+                        Lesson10.L10_Constructor();
+                        Console.WriteLine("\n");
                         break;
                     case 12:
-                        Console.WriteLine("\n\nWelcome student! Please enter the fields below. ");
-                        Console.Write("\nFirst Name     : ");
-                        string firstName = Console.ReadLine();
-                        Console.Write("Last Name      : ");
-                        string lastName = Console.ReadLine();
-                        Console.Write("Year           : ");
-                        int yearlvl = Convert.ToInt32(Console.ReadLine());
-                        Console.Write("Course         : ");
-                        string course = Console.ReadLine();
-                        Console.Write("Section        : ");
-                        string section = Console.ReadLine();
-                        Console.Write("Midterm Grade  : ");
-                        float midtermGrade = Convert.ToSingle(Console.ReadLine());
-                        Console.Write("Final Grade    : ");
-                        float finalGrade = Convert.ToSingle(Console.ReadLine());
-                  
-                        L10_Student s = new L10_Student(firstName, lastName, yearlvl, course, section, midtermGrade, finalGrade);
-                        s.introduceSelf();
-                        s.evaluateGrade();
+                        L10_Student.L10_ObjectMethods();
+                        Console.WriteLine("\n");
                         break;
                     case 13:
-                        L11b_Cars c = new L11b_Cars("Toyota", "Vios", 2020, 5);
-                        c.DisplayInfo();
-
-                        L11c_Trucks t = new L11c_Trucks("Ford", "F-150", 2022, 5.15f);
-                        t.DisplayInfo();
+                        L11_Vehicle.L11_Inheritance();
+                        Console.WriteLine("\n");
+                        break;
+                    case 14:
+                        L12_Bank.Lesson12();
+                        Console.WriteLine("\n");
                         break;
                 }
             }

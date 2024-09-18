@@ -9,6 +9,19 @@ namespace CrashCourse_Dacal
 {
     class Lesson10
     {
+        public static void L10_Constructor()
+        {
+            Console.WriteLine("\n\nEnter the details of the car: ");
+            Console.Write("Brand : ");
+            string brand = Console.ReadLine();
+            Console.Write("Model : ");
+            string model = Console.ReadLine();
+            Console.Write("Year  : ");
+            int year = Convert.ToInt32(Console.ReadLine());
+
+            Lesson10 car = new Lesson10(brand, model, year);
+        }
+
         public string carBrand;
         public string carModel;
         public int carYear;
