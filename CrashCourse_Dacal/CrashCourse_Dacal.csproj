@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CrashCodeClasses.cs" />
+    <Compile Include="Lesson10.cs" />
     <Compile Include="Lesson9.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

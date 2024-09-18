@@ -10,8 +10,7 @@ namespace CrashCourse_Dacal
     {
         static void Main(string[] args)
         {
-            int choice, num1, num2, numberOfInputs;
-            float fnum1, fnum2;
+            int choice;
             bool exit = true;
 
             while (exit)
@@ -26,6 +25,7 @@ namespace CrashCourse_Dacal
                                   "\n[8] Lesson 7b: For Loop" +
                                   "\n[9] Lesson 8 : Arrays" +
                                   "\n[10] Lesson 9 : Functions" +
+                                  "\n[11] Lesson 10 : Constructor" +
                                   "\n[0] Exit");
 
                 Console.Write("Choose: ");
@@ -78,6 +78,16 @@ namespace CrashCourse_Dacal
                     case 10:
                         Lesson9.L9_functions();
                         Console.WriteLine("\n");
+                        break;
+                    case 11:
+                        Console.WriteLine("Enter the details of the car: ");
+                        Console.Write("Brand : ");
+                        string brand = Console.ReadLine();
+                        Console.Write("Model : ");
+                        string model = Console.ReadLine();
+                        Console.Write("Year  : ");
+                        int year = Convert.ToInt32(Console.ReadLine());
+                        Lesson10 car = new Lesson10(brand,model,year);
                         break;
                 }
             }
