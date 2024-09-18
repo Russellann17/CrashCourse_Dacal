@@ -45,6 +45,9 @@
   <ItemGroup>
     <Compile Include="CrashCodeClasses.cs" />
     <Compile Include="L10_Student.cs" />
+    <Compile Include="L11b_Cars.cs" />
+    <Compile Include="L11c_Trucks.cs" />
+    <Compile Include="L11_Vehicle.cs" />
     <Compile Include="Lesson10.cs" />
     <Compile Include="Lesson9.cs" />
     <Compile Include="Program.cs" />

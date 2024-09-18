@@ -27,6 +27,7 @@ namespace CrashCourse_Dacal
                                   "\n[10] Lesson 9 : Functions" +
                                   "\n[11] Lesson 10a : Constructor" +
                                   "\n[12] Lesson 10b : Object Methods" +
+                                  "\n[13] Lesson 11: Inheritance" +
                                   "\n[0] Exit");
 
                 Console.Write("Choose: ");
@@ -111,6 +112,13 @@ namespace CrashCourse_Dacal
                         L10_Student s = new L10_Student(firstName, lastName, yearlvl, course, section, midtermGrade, finalGrade);
                         s.introduceSelf();
                         s.evaluateGrade();
+                        break;
+                    case 13:
+                        L11b_Cars c = new L11b_Cars("Toyota", "Vios", 2020, 5);
+                        c.DisplayInfo();
+
+                        L11c_Trucks t = new L11c_Trucks("Ford", "F-150", 2022, 5.15f);
+                        t.DisplayInfo();
                         break;
                 }
             }
