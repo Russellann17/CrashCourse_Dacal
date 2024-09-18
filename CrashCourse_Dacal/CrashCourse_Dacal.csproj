@@ -52,6 +52,7 @@
     <Compile Include="L13_Notification.cs" />
     <Compile Include="Lesson10.cs" />
     <Compile Include="Lesson14.cs" />
+    <Compile Include="Lesson15.cs" />
     <Compile Include="Lesson9.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

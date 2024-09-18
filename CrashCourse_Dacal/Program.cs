@@ -31,6 +31,7 @@ namespace CrashCourse_Dacal
                                   "\n[14] Lesson 12 : Encapsulation " +
                                   "\n[15] Lesson 13 : Polymorphism " +
                                   "\n[16] Lesson 14 : Abstraction " +
+                                  "\n[17] Lesson 15 : Exception Handling" +
                                   "\n[0] Exit");
 
                 Console.Write("Choose: ");
@@ -106,6 +107,9 @@ namespace CrashCourse_Dacal
                         break;
                     case 16:
                         Lesson14.L14_Payment();
+                        break;
+                    case 17:
+                        Lesson15.L15_AgeValidator();
                         break;
                 }
             }
