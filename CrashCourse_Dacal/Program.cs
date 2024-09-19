@@ -33,6 +33,7 @@ namespace CrashCourse_Dacal
                                   "\n[16] Lesson 14 : Abstraction " +
                                   "\n[17] Lesson 15 : Exception Handling" +
                                   "\n[18] Lesson 16 : Arrays, List, Collections" +
+                                  "\n[19] Lesson 17 : Events and Delegates" +
                                   "\n[0] Exit");
 
                 Console.Write("Choose: ");
@@ -116,6 +117,10 @@ namespace CrashCourse_Dacal
                         break;
                     case 18:
                         Lesson16.L16_ArrayListCollection();
+                        Console.WriteLine("\n");
+                        break;
+                    case 19:
+                        Lesson17.L17_TemperatureAlert();
                         Console.WriteLine("\n");
                         break;
                 }
