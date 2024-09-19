@@ -32,6 +32,7 @@ namespace CrashCourse_Dacal
                                   "\n[15] Lesson 13 : Polymorphism " +
                                   "\n[16] Lesson 14 : Abstraction " +
                                   "\n[17] Lesson 15 : Exception Handling" +
+                                  "\n[18] Lesson 16 : Arrays, List, Collections" +
                                   "\n[0] Exit");
 
                 Console.Write("Choose: ");
@@ -107,9 +108,15 @@ namespace CrashCourse_Dacal
                         break;
                     case 16:
                         Lesson14.L14_Payment();
+                        Console.WriteLine("\n");
                         break;
                     case 17:
                         Lesson15.L15_AgeValidator();
+                        Console.WriteLine("\n");
+                        break;
+                    case 18:
+                        Lesson16.L16_ArrayListCollection();
+                        Console.WriteLine("\n");
                         break;
                 }
             }
