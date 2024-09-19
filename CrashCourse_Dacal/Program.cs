@@ -11,7 +11,6 @@ namespace CrashCourse_Dacal
         static void Main(string[] args)
         {
             int choice;
-            bool exit = true;
             
             Console.WriteLine("[1] Lesson 1 : Hello World" +
                                   "\n[2] Lesson 2 : Variables" +
@@ -33,17 +32,12 @@ namespace CrashCourse_Dacal
                                   "\n[18] Lesson 16 : Arrays, List, Collections" +
                                   "\n[19] Lesson 17 : Events and Delegates" +
                                   "\n[20] Lesson 18 : Async, Await and Tasks" +
+                                  "\n[21] Lesson 19 : Working With Strings" +
                                   "\n[0] Exit");
-            while (exit)
+            while (true)
             { 
                 Console.Write("Choose a Lesson: ");
                 choice = Convert.ToInt32(Console.ReadLine());
-                
-                if (choice == 0)
-                {
-                    exit = false;
-                    Console.WriteLine("Byeee, Thank you!");
-                }
 
                 switch (choice)
                 {
@@ -127,6 +121,15 @@ namespace CrashCourse_Dacal
                         Lesson18.RunLaundryProcess();
                         Console.ReadKey();
                         Console.WriteLine("\n");
+                        break;
+                    case 21:
+                        Lesson19.RunContact();
+                        Console.WriteLine("\n");
+                        break;
+                    case 0:
+                        return;
+                    default:
+                        Console.WriteLine("Choose from 1 to 21 only.");
                         break;
                 }
             }

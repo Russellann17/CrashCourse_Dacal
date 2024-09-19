@@ -56,6 +56,7 @@
     <Compile Include="Lesson16.cs" />
     <Compile Include="Lesson17.cs" />
     <Compile Include="Lesson18.cs" />
+    <Compile Include="Lesson19.cs" />
     <Compile Include="Lesson9.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
