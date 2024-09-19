@@ -12,10 +12,8 @@ namespace CrashCourse_Dacal
         {
             int choice;
             bool exit = true;
-
-            while (exit)
-            { 
-                Console.WriteLine("[1] Lesson 1 : Hello World" +
+            
+            Console.WriteLine("[1] Lesson 1 : Hello World" +
                                   "\n[2] Lesson 2 : Variables" +
                                   "\n[3] Lesson 3 : Input & Output" +
                                   "\n[4] Lesson 4 : Operators & Expressions" +
@@ -34,9 +32,11 @@ namespace CrashCourse_Dacal
                                   "\n[17] Lesson 15 : Exception Handling" +
                                   "\n[18] Lesson 16 : Arrays, List, Collections" +
                                   "\n[19] Lesson 17 : Events and Delegates" +
+                                  "\n[20] Lesson 18 : Async, Await and Tasks" +
                                   "\n[0] Exit");
-
-                Console.Write("Choose: ");
+            while (exit)
+            { 
+                Console.Write("Choose a Lesson: ");
                 choice = Convert.ToInt32(Console.ReadLine());
                 
                 if (choice == 0)
@@ -121,6 +121,11 @@ namespace CrashCourse_Dacal
                         break;
                     case 19:
                         Lesson17.L17_TemperatureAlert();
+                        Console.WriteLine("\n");
+                        break;
+                    case 20:
+                        Lesson18.RunLaundryProcess();
+                        Console.ReadKey();
                         Console.WriteLine("\n");
                         break;
                 }
