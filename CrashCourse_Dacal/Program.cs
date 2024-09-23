@@ -33,6 +33,7 @@ namespace CrashCourse_Dacal
                                   "\n[19] Lesson 17 : Events and Delegates" +
                                   "\n[20] Lesson 18 : Async, Await and Tasks" +
                                   "\n[21] Lesson 19 : Working With Strings" +
+                                  "\n[22] Lesson 20 : Final Project+" +
                                   "\n[0] Exit");
             while (true)
             { 
@@ -125,6 +126,9 @@ namespace CrashCourse_Dacal
                     case 21:
                         Lesson19.RunContact();
                         Console.WriteLine("\n");
+                        break;
+                    case 22:
+                        Lesson20.L20_Recipe();
                         break;
                     case 0:
                         return;
